@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.vieira.kassio.botoescores.MainActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_alignParentStart="true"
+            android:id="@+id/btnVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verde"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            />
+        <Button
+            android:layout_centerInParent="true"
+            android:id="@+id/btnRosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rosa"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            />
+        <Button
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnCiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ciano"
+            android:textColor="@android:color/white"
+            android:background="@color/colorCiano"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vCores"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
