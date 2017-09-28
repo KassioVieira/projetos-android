@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TaskKotlin</string>
+    <string name="contar">Contar</string>
+    <string name="digite_aqui_um_n_mero">Digite aqui um número</string>
+</resources>
